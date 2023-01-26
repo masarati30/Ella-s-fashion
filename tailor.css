@@ -374,7 +374,6 @@
 
 @media only screen and (max-width: 600px){
     nav ul{
-        background-color: #FFFEFE;
         position: fixed;
         top: 0;
         right: -200px;

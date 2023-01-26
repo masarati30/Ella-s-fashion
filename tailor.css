@@ -371,27 +371,35 @@
     letter-spacing: 0.1px;
     color: #202020;
 }
-
+/* -----------css of smaller scream-------------- */
+nav .fa-regular{
+    display: none;
+}
 @media only screen and (max-width: 600px){
+    nav .fa-regular{
+        display: block;
+        font-size: 25px;
+        margin-right: 10px;
+    }
     nav ul{
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
+    background-color: #FFFEFE;
+       position: fixed;
+       top: 0;
+       right: -200px;
+       width: 200px;
+       height: 100vh;
+       padding-top: 50px;
+       z-index: 2;
+       transition: right 0.5s;
     }
     nav ul li{
         display: block;
         margin: 25px;
     }
-    nav .fa-solid{
+    nav .fa-regular{
         position: absolute;
         top: 25px;
         cursor: pointer;
         right: 0;
-        background-color: #000000;
     }
 }

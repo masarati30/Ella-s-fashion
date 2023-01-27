@@ -372,11 +372,11 @@
     color: #202020;
 }
 /* -----------css of smaller scream-------------- */
-nav .fa-regular{
+nav .fa-sharp{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    nav .fa-regular{
+    nav .fa-sharp{
         display: block;
         font-size: 25px;
         margin-right: 10px;
@@ -396,7 +396,7 @@ nav .fa-regular{
         display: block;
         margin: 25px;
     }
-    nav .fa-regular{
+    nav .fa-sharp{
         position: absolute;
         top: 25px;
         cursor: pointer;

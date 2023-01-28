@@ -15,7 +15,7 @@
     margin-left: 76px ;
 }
 .pg{
-    width: 630px;
+    width: 560px;
     height: 80px;
     font-family: 'Inter';
     font-style: normal;
@@ -25,6 +25,16 @@
     color: #060606;
     text-align: start;
     margin-left: 76px;
+}
+#btnhero{
+    margin: 0 70px;
+}
+#imgg{
+    margin:0 400px;
+    width: 680px;
+    height:750px;
+    top: 26px;
+    position: absolute;
 }
 /* Card___Section 2*/
 .see{
@@ -376,10 +386,39 @@ nav .fa-sharp{
     display: none;
 }
 @media only screen and (max-width: 600px){
+    /* -----------Navgation bar --------- */
+    nav{
+        position: absolute;
+        width: 430px;
+        height: 56px;
+        left: 0px;
+        top: 0px;    
+    }
+    .navbar-brand{
+        position: absolute;
+        width: 133px;
+        height: 39px;
+        left: 195px;
+        top: 9px;    
+    }
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .Ella{
+        font-family: 'Archivo Black';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+    }
     nav .fa-sharp{
         display: block;
         font-size: 25px;
         margin-right: 10px;
+        position: relative;
+        width: 50px;
+        height: 50px;
     }
     nav ul{
     background-color: #FFFEFE;
@@ -387,7 +426,7 @@ nav .fa-sharp{
        top: 0;
        right: -200px;
        width: 200px;
-       height: 100vh;
+       height: 300vh;
        padding-top: 50px;
        z-index: 2;
        transition: right 0.5s;
@@ -401,5 +440,46 @@ nav .fa-sharp{
         top: 25px;
         cursor: pointer;
         right: 0;
+    }
+    /* -----------Hero page--------section------- */
+    #hero-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        width: 398px;
+        height: 378px;
+        top: 88px;
+    }
+    .head1{
+        font-family: 'Limelight';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        width: 350px;
+        margin-left: 5px;
+        margin-top: 32px;
+        margin-bottom: 48px;
+    }
+    .pg{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 5px;
+        width: 340px;
+        margin-bottom: 48px;
+    }
+    #btnhero{
+        margin-left: 5px;
+    }
+    #imgg{
+        position: absolute;
+        margin:400px 5px;   
+        width: 343px;
+        height: 389px;
     }
 }

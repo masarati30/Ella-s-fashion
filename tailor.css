@@ -1,40 +1,49 @@
 /* -----------Navigation--------- */
 /* Section 1 Hero page */
-.head1{
-    font-family: Limelight;
-    width: 630px;
-    height: 310px;
+.row.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+#head1{
+    Width:450px;
+    height: 28vh;    
+    font-family: 'Limelight';
     font-style: normal;
     font-weight: 700;
-    font-size: 72px;
-    font-variant: normal;
+    font-size: 66px;
+    line-height: 70px;
     color: #303134;
-    text-align: start;
-    line-height: 69px;
-    margin-top: 35px;
-    margin-left: 76px ;
+    margin: 140px 50px;
 }
 .pg{
-    width: 560px;
-    height: 80px;
+    width: 550px;  
+    height: 15vh;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;    
-    color: #060606;
-    text-align: start;
-    margin-left: 76px;
+    line-height: 22px;
+    margin: 0 50px;
 }
 #btnhero{
-    margin: 0 70px;
+    margin: 0 50px;
 }
 #imgg{
-    margin:0 400px;
+    margin:0;
     width: 680px;
-    height:750px;
+    height: 95vh;    
     top: 26px;
     position: absolute;
+    right: 0px;
+}
+#hero1{
+    flex-basis: 60%;
+    margin-bottom: 150px;
+}
+#hero2{
+    flex-basis: 37%;
 }
 /* Card___Section 2*/
 .see{
@@ -387,30 +396,35 @@ nav .fa-sharp{
 }
 @media only screen and (max-width: 1010px){
     /*-----------Navgation bar --------- */
-    nav{
+    body{
+        width: 100%;
+    }
+    .navbar{
         position: absolute;
         width: 100%;
         height: 56px;
         left: 0px;
-        top: 0px;    
+        top: 0px;   
     }
     .navbar-brand{
         position: absolute;
-        width: 100%;
+        width: 133px;
         height: 39px;
-        margin-left: 5px;
-        top: 9px;    
+        left: 11px;
+        top: 9px;  
     }
     .logo{
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
     }
     .Ella{
         font-family: 'Archivo Black';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 14px;
         line-height: 15px;
+        width: 131px;
+        height: 13px;
     }
     nav .fa-sharp{
         display: block;
@@ -442,25 +456,18 @@ nav .fa-sharp{
         right: 0;
     }
     /* -----------Hero page--------section------- */
-    #hero-div{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        width: 100%;
-        height: 378px;
-        top: 88px;
+    .row1{
+        margin-top: 50px;
     }
-    .head1{
+    #head1{
         font-family: 'Limelight';
         font-style: normal;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 42px;
         line-height: 45px;
-        width: 100%;
-        margin-left: 5px;
-        margin-top: 32px;
-        margin-bottom: 48px;
+        width: 450px;
+        height: 14vh;
+        margin: 85px 0;
     }
     .pg{
         font-family: 'Inter';
@@ -478,16 +485,17 @@ nav .fa-sharp{
     }
     #imgg{
         position: absolute;
-        margin:400px 0px;   
-        width: 110%;
-        height: 489px;
+        margin:500px 0px;   
+        width: 100%;
+        height: 60vh;
         width: 430px;
         left: 0px;
     }
+     /* Card Section 2  */
     #carrd{
         position: absolute;
         width: 430px;
-        height: 439px;
+        height: 1vh;
         left: 0px;
         margin-top: 250px;    
     }

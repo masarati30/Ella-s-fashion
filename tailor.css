@@ -386,19 +386,19 @@ nav .fa-sharp{
     display: none;
 }
 @media only screen and (max-width: 1010px){
-    /* -----------Navgation bar --------- */
+    /*-----------Navgation bar --------- */
     nav{
         position: absolute;
-        width: 430px;
+        width: 100%;
         height: 56px;
         left: 0px;
         top: 0px;    
     }
     .navbar-brand{
         position: absolute;
-        width: 133px;
+        width: 100%;
         height: 39px;
-        left: 195px;
+        margin-left: 5px;
         top: 9px;    
     }
     .logo{
@@ -415,18 +415,18 @@ nav .fa-sharp{
     nav .fa-sharp{
         display: block;
         font-size: 25px;
-        margin-right: 10px;
+        margin-right: 5px;
         position: relative;
         width: 50px;
         height: 50px;
     }
     nav ul{
-    background-color: #FFFEFE;
+        background-color: #FFFEFE;
        position: fixed;
        top: 0;
        right: -200px;
        width: 200px;
-       height: 300vh;
+       height: 100vh;
        padding-top: 50px;
        z-index: 2;
        transition: right 0.5s;
@@ -447,7 +447,7 @@ nav .fa-sharp{
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 398px;
+        width: 100%;
         height: 378px;
         top: 88px;
     }
@@ -455,9 +455,9 @@ nav .fa-sharp{
         font-family: 'Limelight';
         font-style: normal;
         font-weight: 600;
-        font-size: 36px;
+        font-size: 40px;
         line-height: 45px;
-        width: 350px;
+        width: 100%;
         margin-left: 5px;
         margin-top: 32px;
         margin-bottom: 48px;
@@ -465,12 +465,12 @@ nav .fa-sharp{
     .pg{
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 16px;
         line-height: 25px;
         text-align: left;
         margin-left: 5px;
-        width: 340px;
+        width: 100%;
         margin-bottom: 48px;
     }
     #btnhero{
@@ -478,8 +478,39 @@ nav .fa-sharp{
     }
     #imgg{
         position: absolute;
-        margin:400px 5px;   
-        width: 343px;
-        height: 389px;
+        margin:400px 0px;   
+        width: 110%;
+        height: 489px;
+        width: 430px;
+        left: 0px;
+    }
+    #carrd{
+        position: absolute;
+        width: 430px;
+        height: 439px;
+        left: 0px;
+        margin-top: 250px;    
+    }
+    .stock{
+        position: absolute;
+        width: 193px;
+        height: 90px;
+        left: 16px;
+    }
+    .see{
+        display: none;
+    }
+    #card1{
+        position: absolute;
+        width: 398px;
+        height: 460px;
+        left: 16px;
+    }
+    #card2{
+        position: absolute;
+        width: 398px;
+        height: 465px;
+        left: 16px;
+        margin-top: 710px;
     }
 }

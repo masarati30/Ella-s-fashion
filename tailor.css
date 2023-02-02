@@ -46,6 +46,9 @@
     flex-basis: 37%;
 }
 /* Card___Section 2*/
+#cardd{
+    top: 650px;
+}
 .see{
     position: absolute;
     right: 57px;
@@ -394,11 +397,8 @@
 nav .fa-sharp{
     display: none;
 }
-@media only screen and (max-width: 1010px){
+@media only screen and (max-width: 600px){
     /*-----------Navgation bar --------- */
-    body{
-        width: 100%;
-    }
     .navbar{
         position: absolute;
         width: 100%;
@@ -487,17 +487,19 @@ nav .fa-sharp{
         position: absolute;
         margin:500px 0px;   
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         width: 430px;
         left: 0px;
     }
      /* Card Section 2  */
+     #cardd{
+        top: 1110px;
+     }
     #carrd{
         position: absolute;
         width: 430px;
-        height: 1vh;
         left: 0px;
-        margin-top: 250px;    
+        margin-top: 150px;    
     }
     .stock{
         position: absolute;

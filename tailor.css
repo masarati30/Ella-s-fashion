@@ -1,5 +1,69 @@
 /* -----------Navigation--------- */
+.navbar{
+    display: flex;
+    padding: 10px 70px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 9px 30px rgba(170, 170, 170, 0.2); 
+    z-index: 999;
+}
+.navbar-brand{
+    height: 45px;  
+    margin-bottom: 8px;
+}
+.navlink{
+    font-family: Inter; 
+    margin-left: 400px;
+}
+.Ella{
+    width: 204px; height: 31px; font-family: Arial, Helvetica,  fantasy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #434751;
+    top: 7px;
+    left: 67.5px;
+}
+#sidemenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sidemenu li{
+    padding: 0 35px;
+}
+#sidemenu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.3s ease;
+}
+#sidemenu li a:hover,
+#sidemenu li a.active{
+    color: #F0DA6D;
+}
+#nav-btn{
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #264DB1;
+    color: #FFFEFE;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px
+}
+
+
 /* Section 1 Hero page */
+.hero{
+    background-color: #F0DA6D; 
+    height: 105vh;
+}
 .row.row1{
     display: flex;
     justify-content: space-between;
@@ -27,16 +91,25 @@
     line-height: 22px;
     margin: 0 50px;
 }
-#btnhero{
+#hero-btn{
     margin: 0 50px;
+    border: 1px solid #264DB1; 
+    color: #FFFEFE;  
+    background-color: #264DB1; 
+    text-decoration: none;
+    width: 125px;
+    height: 49px;
+    padding: 12px 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
 #imgg{
-    margin:0;
-    width: 680px;
-    height: 95vh;    
-    top: 26px;
+    width: 50%;
+    height: 100vh;    
     position: absolute;
-    right: 0px;
+    top: 30px; right: 0;
 }
 #hero1{
     flex-basis: 60%;
@@ -45,14 +118,72 @@
 #hero2{
     flex-basis: 37%;
 }
-/* Card___Section 2*/
-#cardd{
-    top: 650px;
+
+
+
+/* -------Card___Section 2--------*/
+#cardd1{
+    top: 630px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #F1F5FE;
+    text-align: left;
+}
+#cardd1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 160px;
+}
+#cardd1 .pro{
+    width: 30%;
+    height: 80vh;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #D7D7D7;
+    box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25);
+    cursor: pointer;
+    margin: 15px;
+}
+#cardd1 .pro img{
+    width: 100%;
+}
+#cardd1 .pro .des{
+    padding: 10px 0;
+}
+#cardd1 .pro .des button{
+    float: right;
+    margin: 0 5px
+}
+.btn.card-btn1{
+    border: 1px solid #D5D3D3;
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn.card-btn2{
+    color: #FFFEFE;
+    background: #264DB1;
+    width: 114px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: center;
+    height: 40px;
 }
 .see{
     position: absolute;
     right: 57px;
-    top: 172px;
+    top: 140px;
     font-family: 'Inter';
     font-style: normal;
     font-size: 28px;
@@ -60,59 +191,20 @@
     color: #264DB1;
     text-decoration: none;
 }
-.grid--4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -10px;
-}
-.grid__item {
-    flex-basis: 29%;
-    margin-bottom: 16px;
-}
-.grid__item {
-    flex-basis: (125% - 110px);
-    margin-left: 42px;
-    margin-bottom: 16px;
-}
 .stock{
     position: absolute;
     left: 40px;
-    top: 140px;
+    top: 100px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 90px;
 }
-.btn{
-    border: 1px solid #D5D3D3;
-    border-radius: 30px;
-    padding: 14px 28px;
-    gap: 14px;
-    color: #264DB1;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-}
-.btn.btn1{
-    background: #264DB1;
-    border-radius: 30px;    
-    padding: 14px 28px;
-    gap: 14px;  
-    color: #FFFEFE;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-}
-.forbtn{
-    margin-left: 115px;
 
-}
-/* ------------Section 3 blog---------- */
+
+
+/* ------------Section 3 blog ---------- */
 .row{
     margin: 204px 0;
 }
@@ -403,7 +495,6 @@ nav .fa-sharp{
         position: absolute;
         width: 100%;
         height: 56px;
-        left: 0px;
         top: 0px;   
     }
     .navbar-brand{

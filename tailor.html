@@ -14,180 +14,113 @@
   <script src="https://kit.fontawesome.com/1c8247bb1b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="
-  top: 0px;
-  box-shadow: 0px 9px 30px rgba(170, 170, 170, 0.2); left: 0;">
-  <div class="container">
-      <a href="#"  class="navbar-brand text-bg-light" style="height: 45px;  margin-bottom: 8px">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a href="#"  class="navbar-brand text-bg-light">
         <img src="brand.svg" alt="a logo" style="width: 45px;height: 45px;" class="logo">
-        <span style="width: 204px; height: 31px; font-family: Arial, Helvetica,  fantasy;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 28px;
-          color: #434751;
-          top: 7px;
-          left: 67.5px;" class="Ella">
-          Ella’s fashion
-        </span>
+        <span class="Ella"> Ella’s fashion</span>
       </a>
-      <div class=" justify-content-center" 
-        style="font-family: Inter; margin-left: 400px;">
-        <ul class="navbar-nav  mb-3 mb-lg-0 "  id="sidemenu"
-        style="margin-top: 8px; gap: 58px;">
-        <li class="nav-item" style="width: 127px; height: 39px; padding: 4px;">
-          <a href="#" class="nav-link active text-bg-light" 
-          style="justify-content: space-between;"> Our works</a>
-        </li>
-        <li class="nav-item " style=" width: 61px; height: 39px; padding: 4px;">
-          <a href="#" class="nav-link text-bg-light" 
-          style="justify-content: space-between;">Blog</a>
-        </li>
-        <li class="nav-item" style=" width: 104px; height: 58px; padding: 4px;">
-          <a href="#" class="nav-link text-bg-light" 
-          style="justify-content: space-between;">Contact us</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="btn" 
-          style="color: #FFFEFE; 
-          background-color: #264DB1; 
-          text-decoration: none;
-          width: 125px;
-          height: 49px;
-          padding: 16px 28px;
-          border-radius: 30px;
-          font-size: 14px;
-          display: flex;
-          justify-content: center;
-          align-items: center;"><b>Book Now</b></a>
-        </li>
+      <div class="navlink" >
+        <ul class="navbar-nav  mb-3 mb-lg-0 "  id="sidemenu">
+        <li><a class="active" href="#"> Our works</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><button type="submit" class="btn" id="nav-btn">Book Now</button></li>
         <i class="fa-sharp fa-solid fa-xmark"  onclick="closemenu()"></i>
       </ul>
       <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
     </div>
-  </div>
 </nav>
-    <!-- Hero Section one-->
-    <section class="pt-0" style="background-color: #F0DA6D; height: 99vh;">
+
+
+  <!-- Hero Section one-->
+  <section class="pt-0 hero">
       <div class="container-fluid px-0 text-left text-sm-left" id="hero-man">
         <div class="row row1">
-          <div class="col-sm-6" id="hero1">
+          <div class="col" id="hero1">
             <h1 id="head1">A tailoring  experience  that  is tailored to  your needs.</h1>
-            <p class="pg" style="font-family: inter;">Think about it: you can dress up or down, depending on the situation. You can use fashion to make  yourself look professional or casual—you just need to know that  we are here make whatever you need.</p>
-            <a href="#" class="btn" id="btnhero" style="border: 1px solid #264DB1; color: #FFFEFE;  background-color: #264DB1; 
-            text-decoration: none;
-            width: 125px;
-            height: 49px;
-            border-radius: 30px;
-            font-size: 14px;">Book Now</a>
+            <p class="pg">Think about it: you can dress up or down, depending on the situation. You can use fashion to make  yourself look professional or casual—you just need to know that  we are here make whatever you need.</p>
+            <a href="#" class="btn" id="hero-btn">Book Now</a>
           </div>
-          <div class="col-sm-6" id="hero2">
+          <div class="col" id="hero2">
             <!-- Adding imgae to the hero page -->
             <img src="tr1.jpg" class="img-fluid rounded" alt="" id="imgg">
           </div>
         </div>
       </div>
-    </section>
+  </section>
+
+
     <!-- Card Section -->
-    <section style="position: absolute;
-    height: 1350px;
-    left: 0px;
-    right: 0px;
-    background: #F1F5FE;" id="cardd">
-    <div class="container-fluid" id="carrd">
+  <section id="cardd1">
       <h1 class="stock">In stock</h1>
       <a href="#" class="see">see all</a>
-      <div class="wrapper">
-        <div class="grid grid--4">
-          <div class="grid__item" >
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)" id="card1">
-                <img src="suit1.jpg" class="card-img-top" alt="Men Suite" style="width: 380; height: 200px;">
-                <div class="card-body" >
-                  <h5 class="card-title">Train Black Suit</h5>
-                  <h6>$459.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>
-          <div class="grid__item" >
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)" id="card1"> 
-                <img src="pink.jpg" class="card-img-top" alt="..." style="width: 380; height: 200px;">
-                <div class="card-body">
-                  <h5 class="card-title">Offset Senator</h5>
-                  <h6>$869.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>
-          <div class="grid__item">
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)"> 
-                <img src="nack.jpg" class="card-img-top" alt="..." style="width: 380; height: 200px;">
-                <div class="card-body" >
-                  <h5 class="card-title">Shoulder pad Shimi</h5>
-                  <h6>$399.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>   
-                    <div class="grid__item pt-3">
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)">
-                <img src="suit1.jpg" class="card-img-top" alt="Men Suite" style="width: 380; height: 200px;">
-                <div class="card-body" >
-                  <h5 class="card-title">Train Black Suit</h5>
-                  <h6>$459.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>
-          <div class="grid__item  pt-3">
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)"> 
-                <img src="pink.jpg" class="card-img-top" alt="..." style="width: 380; height: 200px;">
-                <div class="card-body">
-                  <h5 class="card-title">Offset Senator</h5>
-                  <h6>$869.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>
-          <div class="grid__item  pt-3">
-            <article class="card" style="left: 10px; top: 272px; box-shadow: 0px 4px 30px rgba(94, 94, 94, 0.25)"> 
-                <img src="nack.jpg" class="card-img-top" alt="..." style="width: 380; height: 200px;">
-                <div class="card-body" >
-                  <h5 class="card-title">Shoulder pad Shimi</h5>
-                  <h6>$399.99</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
-                  <div class="forbtn">
-                    <button type="submit" class="btn">Learn more</button>
-                    <button type="submit" class="btn btn1">Buy now</button>
-                  </div>
-                </div>
-            </article>
-          </div>        
+    <div class="pro-container">
+      <div class="pro">
+        <img src="men suite.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">Train Black Suit</h5>
+          <h6>$459.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="t-shirt.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">T-Shirt</h5>
+          <h6>$869.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="nack.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">Shoulder pad Shimi</h5>
+          <h6>$399.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="pink.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">Agbada Couple</h5>
+          <h6>$949.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="lady style.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">Plain Set</h5>
+          <h6>$599.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="lady suit.jpg" class="card-img-top" alt="Men Suite">
+        <div class="des">
+          <h5 class="card-title">Plain Senator</h5>
+          <h6>$479.99</h6>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus convallis enim ac dictum. Nam fermentum tortor quis lacus molestie venenatis.</p>
+          <button type="submit" class="btn card-btn2">Buy now</button>
+          <button type="submit" class="btn card-btn1">Learn more</button>
         </div>
       </div>
     </div>
-    </section>
+  </section>
+
+  
     <!-- -------------blog--------- -->
-    <section style="background: #01081B; top: 2080px; height: 1040px; position: absolute; right: 0; left: 0;">
+    <section style="background: #01081B; top: 1830px; height: 1040px; position: absolute; right: 0; left: 0;">
     <div class="container-fluid">
       <div class="row">
         <div class="col" id="coll">
@@ -210,8 +143,10 @@
       </div>
     </div>
     </section>
+
+
     <!-- -----------------contact form Section 4------------- -->
-    <section style="background: #FFFFFF; position: absolute; height: 744px; left: 0px; right: 0px; top: 3121px;">
+    <section style="background: #FFFFFF; position: absolute; height: 744px; left: 0px; right: 0px; top: 2900px;">
       <div class="container-fluid">
         <div class="row">
           <div class="col" id="coll2">
@@ -242,7 +177,7 @@
       </div>
     </section>
 
-    <footer style="background: #FFFFFF; position: absolute; top: 3865px; left: -2px; right: -2px; height:562px ;">
+    <footer style="background: #FFFFFF; position: absolute; top: 3600px; left: -2px; right: -2px; height:562px ;">
     <div class="container-fluid">
       <div class="row">
         <div class="col" id="Ella">
